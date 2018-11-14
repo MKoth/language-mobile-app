@@ -1,0 +1,125 @@
+{
+    "lessons":{
+        "1":{
+            "name":"Форма принадлежности",
+            "id":1
+        },
+        "2":{
+            "name":"Артикль bir",
+            "id":2
+        }
+    },
+    "word_set":{
+        "1":{
+            "words":[0,1,2],
+            "lesson":1
+        },
+        "2":{
+            "words":[3,4,5],
+            "lesson":2
+        }
+    },
+    "words":[
+        {
+            "word":"bir",
+            "translation":"один, артикль",
+            "audio":"./audio/file0.wav"
+        },
+        {
+            "word":"Merhaba",
+            "translation":"Здрасте!",
+            "audio":"./audio/file1.wav"
+        },
+        {
+            "word":"Gunaydin",
+            "translation":"Добрый день!",
+            "audio":"./audio/file2.wav"
+        },
+        {
+            "word":"Ben",
+            "translation":"Я",
+            "audio":"./audio/file3.wav"
+        },
+        {
+            "word":"Olur",
+            "translation":"Можно, пусть будет, может быть",
+            "audio":"./audio/file4.wav"
+        },
+        {
+            "word":"Kedi",
+            "translation":"Кот, кошка",
+            "audio":"./audio/file5.wav"
+        }
+    ],
+    "grammar1":[
+        {
+            "lesson":1,
+            "text":[
+                "[select]Bir[/select] adam[options]Irmak,kedi,okul[/options]",
+                "Ben gidi[select]yourum[/select][options]youruz,your,yoursunuz,yourlar[/options]"
+            ],
+            "translation":[
+                "Мужчина",
+                "Я иду"
+            ],
+            "audio":[
+                "./audio/file6.wav",
+                "./audio/file7.wav"
+            ]
+        },
+        {
+            "lesson":2,
+            "text":[
+                "[select]Biz[/select] ogrenciyiz[options]Siz,Irmak,kedi,okul[/options]",
+                "Ben git[select]tim[/select][options]tik,ti,tiniz,tiler[/options]"
+            ],
+            "translation":[
+                "Мы ученики",
+                "Я пришел"
+            ],
+            "audio":[
+                "./audio/file8.wav",
+                "./audio/file9.wav"
+            ]
+        }
+    ],
+    "grammar2":[
+        {
+            "lesson":1,
+            "text":[
+                "Bir adam[options]Irmak,kedi,okul[/options]",
+                "Ben gidiyourum[options]gidiyouruz,gidiyour,gidiyoursunuz,gidiyourlar[/options]"
+            ],
+            "translation":[
+                "Мужчина",
+                "Я иду"
+            ],
+            "audio":[
+                "./audio/file6.wav",
+                "./audio/file7.wav"
+            ]
+        },
+        {
+            "lesson":2,
+            "text":[
+                "Biz ogrenciyiz[options]Siz,Irmak,kedi,okul[/options]",
+                "Ben gittim[options]gittik,gitti,gittiniz,gittiler[/options]"
+            ],
+            "translation":[
+                "Мы ученики",
+                "Я пришел"
+            ],
+            "audio":[
+                "./audio/file8.wav",
+                "./audio/file9.wav"
+            ]
+        }
+    ],
+    "currentData":{
+        "lesson":1,
+        "task":1,
+        "subtask":1,
+        "answer":"",
+        "rightAnswer":""
+    }
+}

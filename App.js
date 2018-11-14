@@ -1,14 +1,19 @@
 import React, { Component } from 'react';
+import { Provider } from 'react-redux';
+import { createStore } from 'redux';
+import rootReducer from './reducers';
 import {View, Text, StyleSheet} from 'react-native';
 import {DrawerNavigator} from 'react-navigation';
-import LevelsStackNavigator from './screens/LevelsStackNavigator';
-import CardsScreen from './screens/CardsScreen.js';
-import SettingsScreen from './screens/SettingsScreen.js';
-import WatchVideoScreen from './screens/WatchVideoScreen.js';
+import LevelsStackNavigator from './components/LevelsStackNavigator';
+import CardsScreen from './components/CardsScreen.js';
+import SettingsScreen from './components/SettingsScreen.js';
+import WatchVideoScreen from './components/WatchVideoScreen.js';
+
+const store = createStore(rootReducer);
 
 class App extends Component{
 	render(){
-		return (<MyApp />)
+		return (<Provider store={store}><MyApp /></Provider>)
 	}
 }
 
